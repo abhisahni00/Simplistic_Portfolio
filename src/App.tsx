@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Github, Linkedin, Mail, ExternalLink, ChevronRight, Brain, Database, Code, BookOpen } from 'lucide-react';
+import sahniImage from "./Sahni.jpg";
+
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -67,7 +69,7 @@ function App() {
             </div>
             <div className="flex-1 flex justify-center">
               <img
-                src="/Sahni.jpg"
+                src={sahniImage}
                 alt="Abhishek Sahni"
                 className="rounded-full w-64 h-64 object-cover border-4 border-blue-400"
               />
