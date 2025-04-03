@@ -67,7 +67,7 @@ function App() {
             </div>
             <div className="flex-1 flex justify-center">
               <img
-                src="https://i.ibb.co/Jc2gqSK/profile.jpg"
+                src="/Sahni.jpg"
                 alt="Abhishek Sahni"
                 className="rounded-full w-64 h-64 object-cover border-4 border-blue-400"
               />
